@@ -1,0 +1,62 @@
+.weekly-schedule {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.weekly-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.weekly-schedule th,
+.weekly-schedule td {
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+}
+
+.weekly-schedule th {
+  background-color: #003366;
+  font-weight: bold;
+  text-align: left;
+}
+
+.weekly-schedule .schedule-cell {
+  vertical-align: top;
+}
+
+.weekly-schedule .class-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.weekly-schedule input {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.weekly-schedule .class-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.weekly-schedule .extend-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.weekly-schedule .arrow {
+  font-size: 12px;
+  color: #666;
+}
+
+.weekly-schedule .duration {
+  font-size: 12px;
+  color: #666;
+}
