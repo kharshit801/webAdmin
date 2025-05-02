@@ -42,7 +42,7 @@ function Home() {
   return (
     <div className="home">
       <h2>Welcome to MNNIT</h2>
-      <p>Made by Team Auxin</p>
+      <p>Made by Harshit Kumar</p>
     </div>
   );
 }
